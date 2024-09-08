@@ -1,1 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  margin: 0;
+}
 
+.navbar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1a73e8;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 272px; /* Matching Google logo size */
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Space between the logo and search bar */
+}
+
+.search-form, .advanced-form {
+  display: inline-block;
+}
+
+.search-bar, input[type=text] {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+  margin: 10px 0;
+}
+
+.search-bar:focus, input[type=text]:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #f8f9fa;
+  border: 1px solid #dfe1e5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #f1f3f4;
+}
+
+.blue-button {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.blue-button:hover {
+  background-color: #1558b3;
+}
+
+/* Ensuring Google Logo is centered and positioned above the search bar */
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
